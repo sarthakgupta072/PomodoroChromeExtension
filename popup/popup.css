@@ -1,10 +1,63 @@
 body {
     height: 400px;
-    width: 300px;
+    width: 350px;
+    background-color: dodgerblue;
+    border-radius: 5px;
 }
 
 .header {
     display: flex;
     justify-content: center;
     height: 40px;
+    background-color: ghostwhite;
+    margin: -7px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+#time {
+    text-align: center;
+    color: ghostwhite;
+    font-size: -webkit-xxx-large;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn-container>button {
+    color: cornflowerblue;
+    background-color: white;
+    width: 100px;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#task-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.task-input {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    width: 250px
+}
+
+.task-delete {
+    border: none;
+    border-radius: 4px;
+    padding: 3px 5px;
+    background-color: white;
+    color: mediumblue;
+    font-weight: bold;
+    font-size: initial;
 }
